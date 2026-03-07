@@ -12,6 +12,8 @@ psql -U postgres -d ecommerce -f init.sql
 
 ## Docker Compose (All Services)
 This repo contains a `docker-compose.yml` that builds and runs all services.
+It assumes the other repos are checked out as sibling folders:
+`../product-service`, `../order-service`, and `../ecommerce-frontend`.
 
 ```bash
 docker compose up --build
