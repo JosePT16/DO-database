@@ -17,6 +17,11 @@ This repo contains a `docker-compose.yml` that builds and runs all services.
 docker compose up --build
 ```
 
+## Container Security Scan
+```powershell
+./scripts/scan.ps1 -ImageTag do-database:local
+```
+
 ## Development Workflow (Git Flow)
 1. Create a feature branch from `develop`: `feature/<name>`
 2. Commit changes on the feature branch
