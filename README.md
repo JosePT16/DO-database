@@ -10,6 +10,13 @@ PostgreSQL schema and seed data for the e-commerce demo.
 psql -U postgres -d ecommerce -f init.sql
 ```
 
+## Docker Compose (All Services)
+This repo contains a `docker-compose.yml` that builds and runs all services.
+
+```bash
+docker compose up --build
+```
+
 ## Development Workflow (Git Flow)
 1. Create a feature branch from `develop`: `feature/<name>`
 2. Commit changes on the feature branch
